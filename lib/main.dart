@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smart_saloon/screens/auth/T10SignIn.dart';
 
 void main() {
   runApp(StartApp());
@@ -7,6 +8,9 @@ void main() {
 class StartApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: T10SignIn(),
+    );
   }
 }
