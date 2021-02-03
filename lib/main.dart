@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smart_saloon/screens/sign-in-screen.dart';
 
 void main() {
   runApp(StartApp());
@@ -30,14 +31,6 @@ class OnBoardingScreen extends StatelessWidget {
 
 class SignUpScreen extends StatelessWidget {
   static const String id = "SignUpScreen";
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
-
-class SignInScreen extends StatelessWidget {
-  static const String id = "SignInScreen";
   @override
   Widget build(BuildContext context) {
     return Container();
