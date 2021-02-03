@@ -1,6 +1,6 @@
 # smart_saloon
 
-an mobile application where users make saloon appointments
+an mobile application that allows users to make saloon appointments
 
 
 
